@@ -10,6 +10,8 @@ public class BasicJava {
 
         System.out.println(number);
 
+        number = number * 100;
 
+        System.out.println(number);
     }//main
 }//class
