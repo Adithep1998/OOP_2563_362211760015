@@ -27,7 +27,5 @@ public class HW_Login {
                 System.out.println("You account has been locked.Please, contect admin.");
             }
         }//while
-
-
     }//main
 }//class
