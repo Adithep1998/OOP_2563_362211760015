@@ -10,7 +10,7 @@ public class ex_do_while {
         do{
             System.out.print("Enter Integer : ");
             num = sc.nextInt();
-        }while(num!=0);
+       }while(num!=0);
 
         System.out.println("Good Bye.");
 
