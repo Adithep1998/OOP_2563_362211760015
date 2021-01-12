@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>HW_Login.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #0033b3;}
+.s1 { color: #080808;}
+.s2 { color: #1750eb;}
+.s3 { color: #067d17;}
+.s4 { color: #8c8c8c; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+HW_Login.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span><span class="s1">HomeWork;</span>
+
+<span class="s0">import </span><span class="s1">java.util.Scanner;</span>
+
+<span class="s0">public class </span><span class="s1">HW_Login {</span>
+    <span class="s0">public static void </span><span class="s1">main(String[] args) {</span>
+        <span class="s1">Scanner sc = </span><span class="s0">new </span><span class="s1">Scanner(System.in);</span>
+        <span class="s0">int </span><span class="s1">count = </span><span class="s2">0</span><span class="s1">;</span>
+
+        <span class="s0">while</span><span class="s1">(count&lt;</span><span class="s2">3</span><span class="s1">){</span>
+            <span class="s1">System.out.print(</span><span class="s3">&quot;Username : &quot;</span><span class="s1">);</span>
+            <span class="s1">String usr = sc.nextLine();</span>
+
+            <span class="s1">System.out.print(</span><span class="s3">&quot;Password : &quot;</span><span class="s1">);</span>
+            <span class="s1">String pwd = sc.nextLine();</span>
+            <span class="s0">if</span><span class="s1">(usr.equals(</span><span class="s3">&quot;admin&quot;</span><span class="s1">) &amp;&amp; pwd.equals(</span><span class="s3">&quot;saiyai&quot;</span><span class="s1">))</span>
+            <span class="s1">{</span>
+                <span class="s1">System.out.println(</span><span class="s3">&quot;Welcome to MT Website.&quot;</span><span class="s1">);</span>
+                <span class="s0">break</span><span class="s1">;</span>
+            <span class="s1">}</span>
+            <span class="s0">else </span><span class="s1">{</span>
+                <span class="s1">System.out.println(</span><span class="s3">&quot;username or password not correct.&quot; </span><span class="s1">);</span>
+                <span class="s1">count++;</span>
+            <span class="s1">}</span>
+            <span class="s0">if</span><span class="s1">(count==</span><span class="s2">3</span><span class="s1">)</span>
+            <span class="s1">{</span>
+                <span class="s1">System.out.println(</span><span class="s3">&quot;You account has been locked.Please, contect admin.&quot;</span><span class="s1">);</span>
+            <span class="s1">}</span>
+        <span class="s1">}</span><span class="s4">//while</span>
+
+
+    <span class="s1">}</span><span class="s4">//main</span>
+<span class="s1">}</span><span class="s4">//class</span>
+</pre>
+</body>
+</html>
