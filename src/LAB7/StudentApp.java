@@ -2,10 +2,10 @@ package LAB7;
 
 public class StudentApp {
     public static void main(String[] args) {
-        Student std1 = new Student();
+        Student std1 = new Student(); // call constructor
         std1.introduce();
-        std1.name = "Adithep Chuklin";
-        std1.age = 22;
+        std1.name = "Puriwat Lertkrai";
+        std1.age = 34;
         std1.major = "MIT";
         std1.introduce();
 
