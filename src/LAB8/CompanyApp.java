@@ -74,9 +74,6 @@ public class CompanyApp {
 
 }
 
-
-
-
         /*Employee emp1 = new Employee();
 
         emp1.setPid("0123456789012");
